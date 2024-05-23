@@ -30,7 +30,7 @@ VALUES
 SELECT item_name, price
 FROM superstore
 ORDER BY price desc;
---Showed a statistic about the item prices using a Aggregating function.
+--Showed a statistic about the item prices using a aggregating function.
 SELECT item_name, AVG(price) 
 FROM superstore
 GROUP BY item_name
